@@ -1,4 +1,4 @@
-# Dossier de travail - Amane Soule
+# Dossier de travail - Aman Soule
 
 Ce dossier contient les travaux et contributions d'Amane Soule pour le projet de groupe C#.
 
