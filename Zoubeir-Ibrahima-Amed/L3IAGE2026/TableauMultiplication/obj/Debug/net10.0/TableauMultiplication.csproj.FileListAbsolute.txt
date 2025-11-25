@@ -1,0 +1,14 @@
+C:\Users\A&A COMPUTER\Desktop\COURS_L3 IAGE_2025_2026\C#\L3IAGE2026\TableauMultiplication\bin\Debug\net10.0\TableauMultiplication.exe
+C:\Users\A&A COMPUTER\Desktop\COURS_L3 IAGE_2025_2026\C#\L3IAGE2026\TableauMultiplication\bin\Debug\net10.0\TableauMultiplication.deps.json
+C:\Users\A&A COMPUTER\Desktop\COURS_L3 IAGE_2025_2026\C#\L3IAGE2026\TableauMultiplication\bin\Debug\net10.0\TableauMultiplication.runtimeconfig.json
+C:\Users\A&A COMPUTER\Desktop\COURS_L3 IAGE_2025_2026\C#\L3IAGE2026\TableauMultiplication\bin\Debug\net10.0\TableauMultiplication.dll
+C:\Users\A&A COMPUTER\Desktop\COURS_L3 IAGE_2025_2026\C#\L3IAGE2026\TableauMultiplication\bin\Debug\net10.0\TableauMultiplication.pdb
+C:\Users\A&A COMPUTER\Desktop\COURS_L3 IAGE_2025_2026\C#\L3IAGE2026\TableauMultiplication\obj\Debug\net10.0\TableauMultiplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\A&A COMPUTER\Desktop\COURS_L3 IAGE_2025_2026\C#\L3IAGE2026\TableauMultiplication\obj\Debug\net10.0\TableauMultiplication.AssemblyInfoInputs.cache
+C:\Users\A&A COMPUTER\Desktop\COURS_L3 IAGE_2025_2026\C#\L3IAGE2026\TableauMultiplication\obj\Debug\net10.0\TableauMultiplication.AssemblyInfo.cs
+C:\Users\A&A COMPUTER\Desktop\COURS_L3 IAGE_2025_2026\C#\L3IAGE2026\TableauMultiplication\obj\Debug\net10.0\TableauMultiplication.csproj.CoreCompileInputs.cache
+C:\Users\A&A COMPUTER\Desktop\COURS_L3 IAGE_2025_2026\C#\L3IAGE2026\TableauMultiplication\obj\Debug\net10.0\TableauMultiplication.dll
+C:\Users\A&A COMPUTER\Desktop\COURS_L3 IAGE_2025_2026\C#\L3IAGE2026\TableauMultiplication\obj\Debug\net10.0\refint\TableauMultiplication.dll
+C:\Users\A&A COMPUTER\Desktop\COURS_L3 IAGE_2025_2026\C#\L3IAGE2026\TableauMultiplication\obj\Debug\net10.0\TableauMultiplication.pdb
+C:\Users\A&A COMPUTER\Desktop\COURS_L3 IAGE_2025_2026\C#\L3IAGE2026\TableauMultiplication\obj\Debug\net10.0\TableauMultiplication.genruntimeconfig.cache
+C:\Users\A&A COMPUTER\Desktop\COURS_L3 IAGE_2025_2026\C#\L3IAGE2026\TableauMultiplication\obj\Debug\net10.0\ref\TableauMultiplication.dll

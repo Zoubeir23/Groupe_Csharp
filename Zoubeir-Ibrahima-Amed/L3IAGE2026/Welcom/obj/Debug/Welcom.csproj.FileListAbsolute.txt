@@ -1,0 +1,7 @@
+C:\Users\A&A COMPUTER\Desktop\COURS_L3 IAGE_2025_2026\C#\L3IAGE2026\Welcom\bin\Debug\Welcom.exe.config
+C:\Users\A&A COMPUTER\Desktop\COURS_L3 IAGE_2025_2026\C#\L3IAGE2026\Welcom\bin\Debug\Welcom.exe
+C:\Users\A&A COMPUTER\Desktop\COURS_L3 IAGE_2025_2026\C#\L3IAGE2026\Welcom\bin\Debug\Welcom.pdb
+C:\Users\A&A COMPUTER\Desktop\COURS_L3 IAGE_2025_2026\C#\L3IAGE2026\Welcom\obj\Debug\Welcom.csproj.AssemblyReference.cache
+C:\Users\A&A COMPUTER\Desktop\COURS_L3 IAGE_2025_2026\C#\L3IAGE2026\Welcom\obj\Debug\Welcom.csproj.CoreCompileInputs.cache
+C:\Users\A&A COMPUTER\Desktop\COURS_L3 IAGE_2025_2026\C#\L3IAGE2026\Welcom\obj\Debug\Welcom.exe
+C:\Users\A&A COMPUTER\Desktop\COURS_L3 IAGE_2025_2026\C#\L3IAGE2026\Welcom\obj\Debug\Welcom.pdb

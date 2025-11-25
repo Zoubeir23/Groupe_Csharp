@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="TableauMultiplication/TableauMultiplication.csproj" />
+  <Project Path="TrancheAge/TrancheAge.csproj" />
+  <Project Path="Welcom/Welcom.csproj" />
+</Solution>
