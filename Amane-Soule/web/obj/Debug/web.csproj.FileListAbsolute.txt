@@ -1,0 +1,7 @@
+C:\Users\USER\Desktop\L3 INFORMATIQUE\C#\L3IAGE2026\web\bin\Debug\web.exe.config
+C:\Users\USER\Desktop\L3 INFORMATIQUE\C#\L3IAGE2026\web\bin\Debug\web.exe
+C:\Users\USER\Desktop\L3 INFORMATIQUE\C#\L3IAGE2026\web\bin\Debug\web.pdb
+C:\Users\USER\Desktop\L3 INFORMATIQUE\C#\L3IAGE2026\web\obj\Debug\web.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\L3 INFORMATIQUE\C#\L3IAGE2026\web\obj\Debug\web.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\L3 INFORMATIQUE\C#\L3IAGE2026\web\obj\Debug\web.exe
+C:\Users\USER\Desktop\L3 INFORMATIQUE\C#\L3IAGE2026\web\obj\Debug\web.pdb

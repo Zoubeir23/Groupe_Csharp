@@ -1,0 +1,14 @@
+C:\Users\USER\Desktop\L3 INFORMATIQUE\C#\L3IAGE2026\TableMulti\bin\Debug\net10.0\TableMulti.exe
+C:\Users\USER\Desktop\L3 INFORMATIQUE\C#\L3IAGE2026\TableMulti\bin\Debug\net10.0\TableMulti.deps.json
+C:\Users\USER\Desktop\L3 INFORMATIQUE\C#\L3IAGE2026\TableMulti\bin\Debug\net10.0\TableMulti.runtimeconfig.json
+C:\Users\USER\Desktop\L3 INFORMATIQUE\C#\L3IAGE2026\TableMulti\bin\Debug\net10.0\TableMulti.dll
+C:\Users\USER\Desktop\L3 INFORMATIQUE\C#\L3IAGE2026\TableMulti\bin\Debug\net10.0\TableMulti.pdb
+C:\Users\USER\Desktop\L3 INFORMATIQUE\C#\L3IAGE2026\TableMulti\obj\Debug\net10.0\TableMulti.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\L3 INFORMATIQUE\C#\L3IAGE2026\TableMulti\obj\Debug\net10.0\TableMulti.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\L3 INFORMATIQUE\C#\L3IAGE2026\TableMulti\obj\Debug\net10.0\TableMulti.AssemblyInfo.cs
+C:\Users\USER\Desktop\L3 INFORMATIQUE\C#\L3IAGE2026\TableMulti\obj\Debug\net10.0\TableMulti.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\L3 INFORMATIQUE\C#\L3IAGE2026\TableMulti\obj\Debug\net10.0\TableMulti.dll
+C:\Users\USER\Desktop\L3 INFORMATIQUE\C#\L3IAGE2026\TableMulti\obj\Debug\net10.0\refint\TableMulti.dll
+C:\Users\USER\Desktop\L3 INFORMATIQUE\C#\L3IAGE2026\TableMulti\obj\Debug\net10.0\TableMulti.pdb
+C:\Users\USER\Desktop\L3 INFORMATIQUE\C#\L3IAGE2026\TableMulti\obj\Debug\net10.0\TableMulti.genruntimeconfig.cache
+C:\Users\USER\Desktop\L3 INFORMATIQUE\C#\L3IAGE2026\TableMulti\obj\Debug\net10.0\ref\TableMulti.dll

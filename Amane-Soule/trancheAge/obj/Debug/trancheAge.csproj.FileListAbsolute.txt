@@ -1,0 +1,7 @@
+C:\Users\USER\Desktop\L3 INFORMATIQUE\C#\L3IAGE2026\trancheAge\bin\Debug\trancheAge.exe.config
+C:\Users\USER\Desktop\L3 INFORMATIQUE\C#\L3IAGE2026\trancheAge\bin\Debug\trancheAge.exe
+C:\Users\USER\Desktop\L3 INFORMATIQUE\C#\L3IAGE2026\trancheAge\bin\Debug\trancheAge.pdb
+C:\Users\USER\Desktop\L3 INFORMATIQUE\C#\L3IAGE2026\trancheAge\obj\Debug\trancheAge.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\L3 INFORMATIQUE\C#\L3IAGE2026\trancheAge\obj\Debug\trancheAge.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\L3 INFORMATIQUE\C#\L3IAGE2026\trancheAge\obj\Debug\trancheAge.exe
+C:\Users\USER\Desktop\L3 INFORMATIQUE\C#\L3IAGE2026\trancheAge\obj\Debug\trancheAge.pdb

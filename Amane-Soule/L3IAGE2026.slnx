@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="TableMuliplication/TableMuliplication.csproj" />
+  <Project Path="TableMulti/TableMulti.csproj" />
+  <Project Path="trancheAge/trancheAge.csproj" Id="8121518f-2822-44c4-9af8-796917c328a3" />
+  <Project Path="web/web.csproj" Id="53e464d5-f86f-450d-ba68-6404bbab0bca" />
+</Solution>
