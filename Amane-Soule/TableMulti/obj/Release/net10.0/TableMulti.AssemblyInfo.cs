@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TableMulti")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e24fd60add0278cc02fea2011380ca8dcfe6fb17")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b46a303014eafec61dc14007527f66fb1b08781d")]
 [assembly: System.Reflection.AssemblyProductAttribute("TableMulti")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TableMulti")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
