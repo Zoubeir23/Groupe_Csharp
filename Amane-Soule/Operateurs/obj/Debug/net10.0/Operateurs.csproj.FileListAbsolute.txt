@@ -1,0 +1,15 @@
+C:\Users\USER\Desktop\L3 INFORMATIQUE\C#\Groupe_Csharp\Amane-Soule\Operateurs\bin\Debug\net10.0\Operateurs.exe
+C:\Users\USER\Desktop\L3 INFORMATIQUE\C#\Groupe_Csharp\Amane-Soule\Operateurs\bin\Debug\net10.0\Operateurs.deps.json
+C:\Users\USER\Desktop\L3 INFORMATIQUE\C#\Groupe_Csharp\Amane-Soule\Operateurs\bin\Debug\net10.0\Operateurs.runtimeconfig.json
+C:\Users\USER\Desktop\L3 INFORMATIQUE\C#\Groupe_Csharp\Amane-Soule\Operateurs\bin\Debug\net10.0\Operateurs.dll
+C:\Users\USER\Desktop\L3 INFORMATIQUE\C#\Groupe_Csharp\Amane-Soule\Operateurs\bin\Debug\net10.0\Operateurs.pdb
+C:\Users\USER\Desktop\L3 INFORMATIQUE\C#\Groupe_Csharp\Amane-Soule\Operateurs\obj\Debug\net10.0\Operateurs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\L3 INFORMATIQUE\C#\Groupe_Csharp\Amane-Soule\Operateurs\obj\Debug\net10.0\Operateurs.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\L3 INFORMATIQUE\C#\Groupe_Csharp\Amane-Soule\Operateurs\obj\Debug\net10.0\Operateurs.AssemblyInfo.cs
+C:\Users\USER\Desktop\L3 INFORMATIQUE\C#\Groupe_Csharp\Amane-Soule\Operateurs\obj\Debug\net10.0\Operateurs.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\L3 INFORMATIQUE\C#\Groupe_Csharp\Amane-Soule\Operateurs\obj\Debug\net10.0\Operateurs.sourcelink.json
+C:\Users\USER\Desktop\L3 INFORMATIQUE\C#\Groupe_Csharp\Amane-Soule\Operateurs\obj\Debug\net10.0\Operateurs.dll
+C:\Users\USER\Desktop\L3 INFORMATIQUE\C#\Groupe_Csharp\Amane-Soule\Operateurs\obj\Debug\net10.0\refint\Operateurs.dll
+C:\Users\USER\Desktop\L3 INFORMATIQUE\C#\Groupe_Csharp\Amane-Soule\Operateurs\obj\Debug\net10.0\Operateurs.pdb
+C:\Users\USER\Desktop\L3 INFORMATIQUE\C#\Groupe_Csharp\Amane-Soule\Operateurs\obj\Debug\net10.0\Operateurs.genruntimeconfig.cache
+C:\Users\USER\Desktop\L3 INFORMATIQUE\C#\Groupe_Csharp\Amane-Soule\Operateurs\obj\Debug\net10.0\ref\Operateurs.dll

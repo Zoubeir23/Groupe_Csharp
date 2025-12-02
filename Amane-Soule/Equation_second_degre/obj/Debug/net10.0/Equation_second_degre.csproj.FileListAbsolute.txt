@@ -1,0 +1,15 @@
+C:\Users\USER\Desktop\L3 INFORMATIQUE\C#\Groupe_Csharp\Amane-Soule\Equation_second_degre\bin\Debug\net10.0\Equation_second_degre.exe
+C:\Users\USER\Desktop\L3 INFORMATIQUE\C#\Groupe_Csharp\Amane-Soule\Equation_second_degre\bin\Debug\net10.0\Equation_second_degre.deps.json
+C:\Users\USER\Desktop\L3 INFORMATIQUE\C#\Groupe_Csharp\Amane-Soule\Equation_second_degre\bin\Debug\net10.0\Equation_second_degre.runtimeconfig.json
+C:\Users\USER\Desktop\L3 INFORMATIQUE\C#\Groupe_Csharp\Amane-Soule\Equation_second_degre\bin\Debug\net10.0\Equation_second_degre.dll
+C:\Users\USER\Desktop\L3 INFORMATIQUE\C#\Groupe_Csharp\Amane-Soule\Equation_second_degre\bin\Debug\net10.0\Equation_second_degre.pdb
+C:\Users\USER\Desktop\L3 INFORMATIQUE\C#\Groupe_Csharp\Amane-Soule\Equation_second_degre\obj\Debug\net10.0\Equation_second_degre.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\L3 INFORMATIQUE\C#\Groupe_Csharp\Amane-Soule\Equation_second_degre\obj\Debug\net10.0\Equation_second_degre.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\L3 INFORMATIQUE\C#\Groupe_Csharp\Amane-Soule\Equation_second_degre\obj\Debug\net10.0\Equation_second_degre.AssemblyInfo.cs
+C:\Users\USER\Desktop\L3 INFORMATIQUE\C#\Groupe_Csharp\Amane-Soule\Equation_second_degre\obj\Debug\net10.0\Equation_second_degre.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\L3 INFORMATIQUE\C#\Groupe_Csharp\Amane-Soule\Equation_second_degre\obj\Debug\net10.0\Equation_second_degre.sourcelink.json
+C:\Users\USER\Desktop\L3 INFORMATIQUE\C#\Groupe_Csharp\Amane-Soule\Equation_second_degre\obj\Debug\net10.0\Equation_second_degre.dll
+C:\Users\USER\Desktop\L3 INFORMATIQUE\C#\Groupe_Csharp\Amane-Soule\Equation_second_degre\obj\Debug\net10.0\refint\Equation_second_degre.dll
+C:\Users\USER\Desktop\L3 INFORMATIQUE\C#\Groupe_Csharp\Amane-Soule\Equation_second_degre\obj\Debug\net10.0\Equation_second_degre.pdb
+C:\Users\USER\Desktop\L3 INFORMATIQUE\C#\Groupe_Csharp\Amane-Soule\Equation_second_degre\obj\Debug\net10.0\Equation_second_degre.genruntimeconfig.cache
+C:\Users\USER\Desktop\L3 INFORMATIQUE\C#\Groupe_Csharp\Amane-Soule\Equation_second_degre\obj\Debug\net10.0\ref\Equation_second_degre.dll
