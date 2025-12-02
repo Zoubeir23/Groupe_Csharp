@@ -1,0 +1,140 @@
+﻿using System;
+
+namespace Calculatrice
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            bool continuer = true;
+
+            Console.WriteLine("=================================");
+            Console.WriteLine("   CALCULATRICE EN C#");
+            Console.WriteLine("=================================\n");
+
+            while (continuer)
+            {
+                try
+                {
+                    // Demander le premier nombre
+                    Console.Write("Entrez le premier nombre: ");
+                    double nombre1 = Convert.ToDouble(Console.ReadLine());
+
+                    // Afficher le menu des opérations
+                    Console.WriteLine("\nChoisissez une opération:");
+                    Console.WriteLine("1. Addition (+)");
+                    Console.WriteLine("2. Soustraction (-)");
+                    Console.WriteLine("3. Multiplication (*)");
+                    Console.WriteLine("4. Division (/)");
+                    Console.WriteLine("5. Puissance (^)");
+                    Console.WriteLine("6. Modulo (%)");
+                    Console.Write("\nVotre choix (1-6): ");
+                    string choix = Console.ReadLine() ?? "";
+
+                    // Demander le deuxième nombre
+                    Console.Write("Entrez le deuxième nombre: ");
+                    double nombre2 = Convert.ToDouble(Console.ReadLine());
+
+                    // Calculer le résultat selon l'opération choisie
+                    double resultat = 0;
+                    string operateur = "";
+                    bool operationValide = true;
+
+                    switch (choix)
+                    {
+                        case "1":
+                            resultat = nombre1 + nombre2;
+                            operateur = "+";
+                            break;
+                        case "2":
+                            resultat = nombre1 - nombre2;
+                            operateur = "-";
+                            break;
+                        case "3":
+                            resultat = nombre1 * nombre2;
+                            operateur = "*";
+                            break;
+                        case "4":
+                            if (nombre2 == 0)
+                            {
+                                Console.ForegroundColor = ConsoleColor.Red;
+                                Console.WriteLine("\n❌ Erreur: Division par zéro impossible!");
+                                Console.ResetColor();
+                                operationValide = false;
+                            }
+                            else
+                            {
+                                resultat = nombre1 / nombre2;
+                                operateur = "/";
+                            }
+                            break;
+                        case "5":
+                            resultat = Math.Pow(nombre1, nombre2);
+                            operateur = "^";
+                            break;
+                        case "6":
+                            if (nombre2 == 0)
+                            {
+                                Console.ForegroundColor = ConsoleColor.Red;
+                                Console.WriteLine("\n❌ Erreur: Modulo par zéro impossible!");
+                                Console.ResetColor();
+                                operationValide = false;
+                            }
+                            else
+                            {
+                                resultat = nombre1 % nombre2;
+                                operateur = "%";
+                            }
+                            break;
+                        default:
+                            Console.ForegroundColor = ConsoleColor.Red;
+                            Console.WriteLine("\n❌ Choix invalide!");
+                            Console.ResetColor();
+                            operationValide = false;
+                            break;
+                    }
+
+                    // Afficher le résultat si l'opération est valide
+                    if (operationValide)
+                    {
+                        Console.ForegroundColor = ConsoleColor.Green;
+                        Console.WriteLine("\n=================================");
+                        Console.WriteLine($"   {nombre1} {operateur} {nombre2} = {resultat}");
+                        Console.WriteLine("=================================");
+                        Console.ResetColor();
+                    }
+                }
+                catch (FormatException)
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("\n❌ Erreur: Veuillez entrer un nombre valide!");
+                    Console.ResetColor();
+                }
+                catch (Exception ex)
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine($"\n❌ Erreur inattendue: {ex.Message}");
+                    Console.ResetColor();
+                }
+
+                // Demander si l'utilisateur veut continuer
+                Console.WriteLine("\n---------------------------------");
+                Console.Write("Voulez-vous effectuer un autre calcul? (o/n): ");
+                string reponse = (Console.ReadLine() ?? "").ToLower();
+                continuer = (reponse == "o" || reponse == "oui");
+
+                if (continuer)
+                {
+                    Console.Clear();
+                    Console.WriteLine("=================================");
+                    Console.WriteLine("   CALCULATRICE EN C#");
+                    Console.WriteLine("=================================\n");
+                }
+            }
+
+            Console.WriteLine("\n👋 Merci d'avoir utilisé la calculatrice!");
+            Console.WriteLine("Appuyez sur une touche pour quitter...");
+            Console.ReadKey();
+        }
+    }
+}

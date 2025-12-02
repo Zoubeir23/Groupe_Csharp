@@ -1,5 +1,3 @@
 <Solution>
-  <Project Path="TableauMultiplication/TableauMultiplication.csproj" />
-  <Project Path="TrancheAge/TrancheAge.csproj" />
-  <Project Path="Welcom/Welcom.csproj" />
+  <Project Path="Forminterface/Forminterface.csproj" Id="c2975c16-0725-41bb-8721-8342b433261e" />
 </Solution>

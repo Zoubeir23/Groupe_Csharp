@@ -1,0 +1,10 @@
+C:\Users\A&A COMPUTER\Desktop\COURS_L3_IAGE_2025_2026\C#\Groupe_Csharp\Zoubeir-Ibrahima-Amed\L3IAGE2026\Forminterface\bin\Debug\Forminterface.exe.config
+C:\Users\A&A COMPUTER\Desktop\COURS_L3_IAGE_2025_2026\C#\Groupe_Csharp\Zoubeir-Ibrahima-Amed\L3IAGE2026\Forminterface\bin\Debug\Forminterface.exe
+C:\Users\A&A COMPUTER\Desktop\COURS_L3_IAGE_2025_2026\C#\Groupe_Csharp\Zoubeir-Ibrahima-Amed\L3IAGE2026\Forminterface\bin\Debug\Forminterface.pdb
+C:\Users\A&A COMPUTER\Desktop\COURS_L3_IAGE_2025_2026\C#\Groupe_Csharp\Zoubeir-Ibrahima-Amed\L3IAGE2026\Forminterface\obj\Debug\Forminterface.csproj.AssemblyReference.cache
+C:\Users\A&A COMPUTER\Desktop\COURS_L3_IAGE_2025_2026\C#\Groupe_Csharp\Zoubeir-Ibrahima-Amed\L3IAGE2026\Forminterface\obj\Debug\Forminterface.Form1.resources
+C:\Users\A&A COMPUTER\Desktop\COURS_L3_IAGE_2025_2026\C#\Groupe_Csharp\Zoubeir-Ibrahima-Amed\L3IAGE2026\Forminterface\obj\Debug\Forminterface.Properties.Resources.resources
+C:\Users\A&A COMPUTER\Desktop\COURS_L3_IAGE_2025_2026\C#\Groupe_Csharp\Zoubeir-Ibrahima-Amed\L3IAGE2026\Forminterface\obj\Debug\Forminterface.csproj.GenerateResource.cache
+C:\Users\A&A COMPUTER\Desktop\COURS_L3_IAGE_2025_2026\C#\Groupe_Csharp\Zoubeir-Ibrahima-Amed\L3IAGE2026\Forminterface\obj\Debug\Forminterface.csproj.CoreCompileInputs.cache
+C:\Users\A&A COMPUTER\Desktop\COURS_L3_IAGE_2025_2026\C#\Groupe_Csharp\Zoubeir-Ibrahima-Amed\L3IAGE2026\Forminterface\obj\Debug\Forminterface.exe
+C:\Users\A&A COMPUTER\Desktop\COURS_L3_IAGE_2025_2026\C#\Groupe_Csharp\Zoubeir-Ibrahima-Amed\L3IAGE2026\Forminterface\obj\Debug\Forminterface.pdb
