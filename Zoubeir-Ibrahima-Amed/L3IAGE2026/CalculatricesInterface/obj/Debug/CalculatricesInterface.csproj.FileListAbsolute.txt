@@ -1,0 +1,10 @@
+C:\Users\A&A COMPUTER\Desktop\COURS_L3_IAGE_2025_2026\C#\Groupe_Csharp\Zoubeir-Ibrahima-Amed\L3IAGE2026\CalculatricesInterface\bin\Debug\CalculatricesInterface.exe.config
+C:\Users\A&A COMPUTER\Desktop\COURS_L3_IAGE_2025_2026\C#\Groupe_Csharp\Zoubeir-Ibrahima-Amed\L3IAGE2026\CalculatricesInterface\bin\Debug\CalculatricesInterface.exe
+C:\Users\A&A COMPUTER\Desktop\COURS_L3_IAGE_2025_2026\C#\Groupe_Csharp\Zoubeir-Ibrahima-Amed\L3IAGE2026\CalculatricesInterface\bin\Debug\CalculatricesInterface.pdb
+C:\Users\A&A COMPUTER\Desktop\COURS_L3_IAGE_2025_2026\C#\Groupe_Csharp\Zoubeir-Ibrahima-Amed\L3IAGE2026\CalculatricesInterface\obj\Debug\CalculatricesInterface.csproj.AssemblyReference.cache
+C:\Users\A&A COMPUTER\Desktop\COURS_L3_IAGE_2025_2026\C#\Groupe_Csharp\Zoubeir-Ibrahima-Amed\L3IAGE2026\CalculatricesInterface\obj\Debug\CalculatricesInterface.Form1.resources
+C:\Users\A&A COMPUTER\Desktop\COURS_L3_IAGE_2025_2026\C#\Groupe_Csharp\Zoubeir-Ibrahima-Amed\L3IAGE2026\CalculatricesInterface\obj\Debug\CalculatricesInterface.Properties.Resources.resources
+C:\Users\A&A COMPUTER\Desktop\COURS_L3_IAGE_2025_2026\C#\Groupe_Csharp\Zoubeir-Ibrahima-Amed\L3IAGE2026\CalculatricesInterface\obj\Debug\CalculatricesInterface.csproj.GenerateResource.cache
+C:\Users\A&A COMPUTER\Desktop\COURS_L3_IAGE_2025_2026\C#\Groupe_Csharp\Zoubeir-Ibrahima-Amed\L3IAGE2026\CalculatricesInterface\obj\Debug\CalculatricesInterface.csproj.CoreCompileInputs.cache
+C:\Users\A&A COMPUTER\Desktop\COURS_L3_IAGE_2025_2026\C#\Groupe_Csharp\Zoubeir-Ibrahima-Amed\L3IAGE2026\CalculatricesInterface\obj\Debug\CalculatricesInterface.exe
+C:\Users\A&A COMPUTER\Desktop\COURS_L3_IAGE_2025_2026\C#\Groupe_Csharp\Zoubeir-Ibrahima-Amed\L3IAGE2026\CalculatricesInterface\obj\Debug\CalculatricesInterface.pdb
