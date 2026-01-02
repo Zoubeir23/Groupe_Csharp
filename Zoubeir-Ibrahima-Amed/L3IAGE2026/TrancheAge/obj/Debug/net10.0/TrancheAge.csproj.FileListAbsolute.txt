@@ -1,0 +1,15 @@
+C:\Users\A&A COMPUTER\Desktop\COURS_L3_IAGE_2025_2026\C#\Groupe_Csharp\Zoubeir-Ibrahima-Amed\L3IAGE2026\TrancheAge\bin\Debug\net10.0\TrancheAge.exe
+C:\Users\A&A COMPUTER\Desktop\COURS_L3_IAGE_2025_2026\C#\Groupe_Csharp\Zoubeir-Ibrahima-Amed\L3IAGE2026\TrancheAge\bin\Debug\net10.0\TrancheAge.deps.json
+C:\Users\A&A COMPUTER\Desktop\COURS_L3_IAGE_2025_2026\C#\Groupe_Csharp\Zoubeir-Ibrahima-Amed\L3IAGE2026\TrancheAge\bin\Debug\net10.0\TrancheAge.runtimeconfig.json
+C:\Users\A&A COMPUTER\Desktop\COURS_L3_IAGE_2025_2026\C#\Groupe_Csharp\Zoubeir-Ibrahima-Amed\L3IAGE2026\TrancheAge\bin\Debug\net10.0\TrancheAge.dll
+C:\Users\A&A COMPUTER\Desktop\COURS_L3_IAGE_2025_2026\C#\Groupe_Csharp\Zoubeir-Ibrahima-Amed\L3IAGE2026\TrancheAge\bin\Debug\net10.0\TrancheAge.pdb
+C:\Users\A&A COMPUTER\Desktop\COURS_L3_IAGE_2025_2026\C#\Groupe_Csharp\Zoubeir-Ibrahima-Amed\L3IAGE2026\TrancheAge\obj\Debug\net10.0\TrancheAge.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\A&A COMPUTER\Desktop\COURS_L3_IAGE_2025_2026\C#\Groupe_Csharp\Zoubeir-Ibrahima-Amed\L3IAGE2026\TrancheAge\obj\Debug\net10.0\TrancheAge.AssemblyInfoInputs.cache
+C:\Users\A&A COMPUTER\Desktop\COURS_L3_IAGE_2025_2026\C#\Groupe_Csharp\Zoubeir-Ibrahima-Amed\L3IAGE2026\TrancheAge\obj\Debug\net10.0\TrancheAge.AssemblyInfo.cs
+C:\Users\A&A COMPUTER\Desktop\COURS_L3_IAGE_2025_2026\C#\Groupe_Csharp\Zoubeir-Ibrahima-Amed\L3IAGE2026\TrancheAge\obj\Debug\net10.0\TrancheAge.csproj.CoreCompileInputs.cache
+C:\Users\A&A COMPUTER\Desktop\COURS_L3_IAGE_2025_2026\C#\Groupe_Csharp\Zoubeir-Ibrahima-Amed\L3IAGE2026\TrancheAge\obj\Debug\net10.0\TrancheAge.sourcelink.json
+C:\Users\A&A COMPUTER\Desktop\COURS_L3_IAGE_2025_2026\C#\Groupe_Csharp\Zoubeir-Ibrahima-Amed\L3IAGE2026\TrancheAge\obj\Debug\net10.0\TrancheAge.dll
+C:\Users\A&A COMPUTER\Desktop\COURS_L3_IAGE_2025_2026\C#\Groupe_Csharp\Zoubeir-Ibrahima-Amed\L3IAGE2026\TrancheAge\obj\Debug\net10.0\refint\TrancheAge.dll
+C:\Users\A&A COMPUTER\Desktop\COURS_L3_IAGE_2025_2026\C#\Groupe_Csharp\Zoubeir-Ibrahima-Amed\L3IAGE2026\TrancheAge\obj\Debug\net10.0\TrancheAge.pdb
+C:\Users\A&A COMPUTER\Desktop\COURS_L3_IAGE_2025_2026\C#\Groupe_Csharp\Zoubeir-Ibrahima-Amed\L3IAGE2026\TrancheAge\obj\Debug\net10.0\TrancheAge.genruntimeconfig.cache
+C:\Users\A&A COMPUTER\Desktop\COURS_L3_IAGE_2025_2026\C#\Groupe_Csharp\Zoubeir-Ibrahima-Amed\L3IAGE2026\TrancheAge\obj\Debug\net10.0\ref\TrancheAge.dll

@@ -1,5 +1,6 @@
 <Solution>
+  <Project Path="CalculatricesInterface/CalculatricesInterface.csproj" Id="bee402b0-e16f-4654-b96a-b22f32f8e00c" />
   <Project Path="TableauMultiplication/TableauMultiplication.csproj" />
   <Project Path="TrancheAge/TrancheAge.csproj" />
-  <Project Path="Welcom/Welcom.csproj" />
+  <Project Path="Welcom/Welcom.csproj" Id="00386630-1513-47d8-a321-2bbfd09dc244" />
 </Solution>

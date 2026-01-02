@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\A&A COMPUTER\\Desktop\\COURS_L3 IAGE_2025_2026\\C#\\L3IAGE2026\\TrancheAge\\TrancheAge.csproj": {}
+    "C:\\Users\\A&A COMPUTER\\Desktop\\COURS_L3_IAGE_2025_2026\\C#\\Groupe_Csharp\\Zoubeir-Ibrahima-Amed\\L3IAGE2026\\TrancheAge\\TrancheAge.csproj": {}
   },
   "projects": {
-    "C:\\Users\\A&A COMPUTER\\Desktop\\COURS_L3 IAGE_2025_2026\\C#\\L3IAGE2026\\TrancheAge\\TrancheAge.csproj": {
+    "C:\\Users\\A&A COMPUTER\\Desktop\\COURS_L3_IAGE_2025_2026\\C#\\Groupe_Csharp\\Zoubeir-Ibrahima-Amed\\L3IAGE2026\\TrancheAge\\TrancheAge.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\A&A COMPUTER\\Desktop\\COURS_L3 IAGE_2025_2026\\C#\\L3IAGE2026\\TrancheAge\\TrancheAge.csproj",
+        "projectUniqueName": "C:\\Users\\A&A COMPUTER\\Desktop\\COURS_L3_IAGE_2025_2026\\C#\\Groupe_Csharp\\Zoubeir-Ibrahima-Amed\\L3IAGE2026\\TrancheAge\\TrancheAge.csproj",
         "projectName": "TrancheAge",
-        "projectPath": "C:\\Users\\A&A COMPUTER\\Desktop\\COURS_L3 IAGE_2025_2026\\C#\\L3IAGE2026\\TrancheAge\\TrancheAge.csproj",
+        "projectPath": "C:\\Users\\A&A COMPUTER\\Desktop\\COURS_L3_IAGE_2025_2026\\C#\\Groupe_Csharp\\Zoubeir-Ibrahima-Amed\\L3IAGE2026\\TrancheAge\\TrancheAge.csproj",
         "packagesPath": "C:\\Users\\A&A COMPUTER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\A&A COMPUTER\\Desktop\\COURS_L3 IAGE_2025_2026\\C#\\L3IAGE2026\\TrancheAge\\obj\\",
+        "outputPath": "C:\\Users\\A&A COMPUTER\\Desktop\\COURS_L3_IAGE_2025_2026\\C#\\Groupe_Csharp\\Zoubeir-Ibrahima-Amed\\L3IAGE2026\\TrancheAge\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

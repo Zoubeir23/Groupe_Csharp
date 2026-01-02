@@ -1,0 +1,318 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace CalculatricesInterface
+{
+    public partial class Form1 : Form
+    {
+        private double currentValue = 0;
+        private double storedValue = 0;
+        private string currentOperation = "";
+        private bool operationPerformed = false;
+        private bool newCalculation = true;
+
+        public Form1()
+        {
+            InitializeComponent();
+            txtDisplay.Text = "0";
+        }
+
+        // Gestion des clics sur les boutons numériques
+        private void BtnNumber_Click(object sender, EventArgs e)
+        {
+            Button btn = (Button)sender;
+            
+            if (txtDisplay.Text == "0" || operationPerformed || newCalculation)
+            {
+                txtDisplay.Text = btn.Text;
+                operationPerformed = false;
+                newCalculation = false;
+            }
+            else
+            {
+                txtDisplay.Text += btn.Text;
+            }
+        }
+
+        // Gestion du bouton décimal
+        private void BtnDecimal_Click(object sender, EventArgs e)
+        {
+            if (operationPerformed || newCalculation)
+            {
+                txtDisplay.Text = "0,";
+                operationPerformed = false;
+                newCalculation = false;
+            }
+            else if (!txtDisplay.Text.Contains(",") && !txtDisplay.Text.Contains("."))
+            {
+                txtDisplay.Text += ",";
+            }
+        }
+
+        // Gestion des opérateurs (+, -, ×, ÷, x^y)
+        private void BtnOperator_Click(object sender, EventArgs e)
+        {
+            Button btn = (Button)sender;
+            
+            if (currentOperation != "" && !operationPerformed)
+            {
+                BtnEquals_Click(sender, e);
+            }
+
+            storedValue = ParseDisplay();
+            currentOperation = btn.Text;
+            lblOperation.Text = $"{storedValue} {currentOperation}";
+            operationPerformed = true;
+            newCalculation = false;
+        }
+
+        // Gestion du bouton égal
+        private void BtnEquals_Click(object sender, EventArgs e)
+        {
+            if (currentOperation == "")
+                return;
+
+            currentValue = ParseDisplay();
+            double result = 0;
+
+            try
+            {
+                switch (currentOperation)
+                {
+                    case "+":
+                        result = storedValue + currentValue;
+                        break;
+                    case "−":
+                        result = storedValue - currentValue;
+                        break;
+                    case "×":
+                        result = storedValue * currentValue;
+                        break;
+                    case "÷":
+                        if (currentValue != 0)
+                            result = storedValue / currentValue;
+                        else
+                        {
+                            MessageBox.Show("Division par zéro impossible!", "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            Clear();
+                            return;
+                        }
+                        break;
+                    case "x^y":
+                        result = Math.Pow(storedValue, currentValue);
+                        break;
+                }
+
+                lblOperation.Text = $"{storedValue} {currentOperation} {currentValue} =";
+                txtDisplay.Text = FormatResult(result);
+                currentOperation = "";
+                operationPerformed = true;
+                newCalculation = true;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Erreur: {ex.Message}", "Erreur de calcul", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                Clear();
+            }
+        }
+
+        // Gestion des fonctions scientifiques
+        private void BtnScientific_Click(object sender, EventArgs e)
+        {
+            Button btn = (Button)sender;
+            double value = ParseDisplay();
+            double result = 0;
+
+            try
+            {
+                switch (btn.Text)
+                {
+                    case "sin":
+                        result = Math.Sin(value * Math.PI / 180); // Conversion en radians
+                        lblOperation.Text = $"sin({value})";
+                        break;
+                    case "cos":
+                        result = Math.Cos(value * Math.PI / 180);
+                        lblOperation.Text = $"cos({value})";
+                        break;
+                    case "tan":
+                        result = Math.Tan(value * Math.PI / 180);
+                        lblOperation.Text = $"tan({value})";
+                        break;
+                    case "log":
+                        if (value > 0)
+                        {
+                            result = Math.Log10(value);
+                            lblOperation.Text = $"log({value})";
+                        }
+                        else
+                        {
+                            MessageBox.Show("Le logarithme n'est défini que pour les nombres positifs!", "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            return;
+                        }
+                        break;
+                    case "ln":
+                        if (value > 0)
+                        {
+                            result = Math.Log(value);
+                            lblOperation.Text = $"ln({value})";
+                        }
+                        else
+                        {
+                            MessageBox.Show("Le logarithme naturel n'est défini que pour les nombres positifs!", "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            return;
+                        }
+                        break;
+                    case "√":
+                        if (value >= 0)
+                        {
+                            result = Math.Sqrt(value);
+                            lblOperation.Text = $"√({value})";
+                        }
+                        else
+                        {
+                            MessageBox.Show("La racine carrée n'est pas définie pour les nombres négatifs!", "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            return;
+                        }
+                        break;
+                    case "x²":
+                        result = Math.Pow(value, 2);
+                        lblOperation.Text = $"({value})²";
+                        break;
+                    case "n!":
+                        if (value >= 0 && value <= 170 && value == Math.Floor(value))
+                        {
+                            result = Factorial((int)value);
+                            lblOperation.Text = $"{value}!";
+                        }
+                        else
+                        {
+                            MessageBox.Show("La factorielle n'est définie que pour les entiers positifs ≤ 170!", "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            return;
+                        }
+                        break;
+                }
+
+                txtDisplay.Text = FormatResult(result);
+                operationPerformed = true;
+                newCalculation = true;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Erreur: {ex.Message}", "Erreur de calcul", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                Clear();
+            }
+        }
+
+        // Gestion des constantes (π, e)
+        private void BtnConstant_Click(object sender, EventArgs e)
+        {
+            Button btn = (Button)sender;
+            
+            if (btn.Text == "π")
+            {
+                txtDisplay.Text = FormatResult(Math.PI);
+                lblOperation.Text = "π";
+            }
+            else if (btn.Text == "e")
+            {
+                txtDisplay.Text = FormatResult(Math.E);
+                lblOperation.Text = "e";
+            }
+            
+            operationPerformed = true;
+            newCalculation = true;
+        }
+
+        // Bouton Clear (C)
+        private void BtnClear_Click(object sender, EventArgs e)
+        {
+            Clear();
+        }
+
+        // Bouton Backspace (⌫)
+        private void BtnBackspace_Click(object sender, EventArgs e)
+        {
+            if (txtDisplay.Text.Length > 1 && !operationPerformed)
+            {
+                txtDisplay.Text = txtDisplay.Text.Substring(0, txtDisplay.Text.Length - 1);
+            }
+            else
+            {
+                txtDisplay.Text = "0";
+            }
+        }
+
+        // Méthode pour calculer la factorielle
+        private double Factorial(int n)
+        {
+            if (n == 0 || n == 1)
+                return 1;
+            
+            double result = 1;
+            for (int i = 2; i <= n; i++)
+            {
+                result *= i;
+            }
+            return result;
+        }
+
+        // Réinitialisation de la calculatrice
+        private void Clear()
+        {
+            txtDisplay.Text = "0";
+            lblOperation.Text = "";
+            currentValue = 0;
+            storedValue = 0;
+            currentOperation = "";
+            operationPerformed = false;
+            newCalculation = true;
+        }
+
+        // Parser le texte affiché en double
+        private double ParseDisplay()
+        {
+            string text = txtDisplay.Text.Replace(",", ".");
+            double result;
+            if (double.TryParse(text, System.Globalization.NumberStyles.Any, System.Globalization.CultureInfo.InvariantCulture, out result))
+            {
+                return result;
+            }
+            return 0;
+        }
+
+        // Formater le résultat pour l'affichage
+        private string FormatResult(double value)
+        {
+            // Gérer les cas spéciaux
+            if (double.IsInfinity(value))
+                return "∞";
+            if (double.IsNaN(value))
+                return "Erreur";
+
+            // Limiter la précision d'affichage
+            string result = value.ToString("G15", System.Globalization.CultureInfo.InvariantCulture);
+            result = result.Replace(".", ",");
+            
+            // Limiter à 15 caractères pour l'affichage
+            if (result.Length > 15)
+            {
+                result = value.ToString("E6", System.Globalization.CultureInfo.InvariantCulture).Replace(".", ",");
+            }
+            
+            return result;
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            // Méthode existante conservée
+        }
+    }
+}
