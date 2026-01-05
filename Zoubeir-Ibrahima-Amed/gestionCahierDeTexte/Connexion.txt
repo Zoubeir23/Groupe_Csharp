@@ -1,0 +1,85 @@
+===============================================
+UTILISATEURS DE TEST - GESTION CAHIER DE TEXTE
+===============================================
+
+1. CHEF DE DÉPARTEMENT (ADMINISTRATEUR)
+   Identifiant : admin
+   Mot de passe : admin123
+   Nom complet : Système Admin
+   Rôle : CheffeDepartement
+   Email : admin@cahiertexte.com
+   
+   PERMISSIONS (Accès complet) :
+   ✓ Matière (CRUD)
+   ✓ Classe (CRUD)
+   ✓ Année Académique (CRUD)
+   ✓ Chef de Département (CRUD)
+   ✓ Professeur (CRUD)
+   ✓ Responsable de Classe (CRUD)
+
+2. PROFESSEUR
+   Identifiant : prof001
+   Mot de passe : prof123
+   Nom complet : Jean Dupont
+   Rôle : Professeur
+   Spécialité : Informatique
+   Email : jean.dupont@cahiertexte.com
+   
+   PERMISSIONS (Accès limité) :
+   ✓ Matière (Consultation et gestion)
+   ✓ Classe (Consultation et gestion)
+   ✓ Année Académique (Consultation et gestion)
+   ✗ Chef de Département (Accès refusé)
+   ✗ Professeur (Accès refusé)
+   ✗ Responsable de Classe (Accès refusé)
+
+3. RESPONSABLE DE CLASSE
+   Identifiant : resp001
+   Mot de passe : resp123
+   Nom complet : Marie Martin
+   Rôle : ResponsableClasse
+   Matricule : RESP-2026-001
+   Email : marie.martin@cahiertexte.com
+   
+   PERMISSIONS (Accès limité) :
+   ✗ Matière (Accès refusé)
+   ✓ Classe (Consultation et gestion)
+   ✓ Année Académique (Consultation et gestion)
+   ✗ Chef de Département (Accès refusé)
+   ✗ Professeur (Accès refusé)
+   ✓ Responsable de Classe (Consultation de la liste)
+
+===============================================
+INSTRUCTIONS DE CONNEXION
+===============================================
+
+1. Lancer l'application (F5 dans Visual Studio)
+2. Entrer l'un des identifiants ci-dessus
+3. Entrer le mot de passe correspondant
+4. Cliquer sur "Se Connecter"
+5. Un message de bienvenue affichera le nom et le rôle de l'utilisateur
+6. Les menus visibles dans le formulaire principal dépendent du rôle de l'utilisateur
+
+===============================================
+GESTION DES RÔLES ET PERMISSIONS
+===============================================
+
+Le système gère automatiquement les permissions selon le rôle :
+
+- CHEF DE DÉPARTEMENT : Accès administratif complet à tous les modules
+- PROFESSEUR : Accès aux modules pédagogiques (Matière, Classe, Année Académique)
+- RESPONSABLE DE CLASSE : Accès aux modules de gestion de classe (Classe, Année Académique, Liste des Responsables)
+
+Les menus non autorisés sont automatiquement masqués selon le rôle connecté.
+
+===============================================
+NOTE DE SÉCURITÉ
+===============================================
+
+⚠️ ATTENTION : Ces mots de passe sont en texte clair.
+Pour la production, il est fortement recommandé de :
+- Hasher les mots de passe (BCrypt, SHA256, etc.)
+- Ne jamais stocker les mots de passe en clair
+- Implémenter un système de gestion de sessions sécurisé
+- Ajouter des validations côté serveur pour renforcer la sécurité
+

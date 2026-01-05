@@ -142,11 +142,20 @@
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AnneeAcademique.cs" />
     <Compile Include="Models\BdCahierTexteContext.cs" />
+    <Compile Include="Models\CahierTexte.cs" />
+    <Compile Include="Models\CheffeDepartement.cs" />
     <Compile Include="Models\Classe.cs" />
+    <Compile Include="Models\Syllabus.cs" />
+    <Compile Include="Models\DetailsSyllabus.cs" />
     <Compile Include="Models\Matiere.cs" />
+    <Compile Include="Models\Professeur.cs" />
+    <Compile Include="Models\ResponsableClasse.cs" />
+    <Compile Include="Models\Utilisateur.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utilities\ExceptionPolicy.cs" />
+    <Compile Include="Utilities\SessionManager.cs" />
+    <Compile Include="Views\Parametre\FormDesignHelper.cs" />
     <Compile Include="Views\Parametre\frmAnneeAcademique.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -164,6 +173,24 @@
     </Compile>
     <Compile Include="Views\Parametre\frmMatiere.Designer.cs">
       <DependentUpon>frmMatiere.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Parametre\frmCheffeDepartement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Parametre\frmCheffeDepartement.Designer.cs">
+      <DependentUpon>frmCheffeDepartement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Parametre\frmProfesseur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Parametre\frmProfesseur.Designer.cs">
+      <DependentUpon>frmProfesseur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Parametre\frmResponsableClasse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Parametre\frmResponsableClasse.Designer.cs">
+      <DependentUpon>frmResponsableClasse.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -188,6 +215,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Parametre\frmMatiere.resx">
       <DependentUpon>frmMatiere.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Parametre\frmCheffeDepartement.resx">
+      <DependentUpon>frmCheffeDepartement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Parametre\frmProfesseur.resx">
+      <DependentUpon>frmProfesseur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Parametre\frmResponsableClasse.resx">
+      <DependentUpon>frmResponsableClasse.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

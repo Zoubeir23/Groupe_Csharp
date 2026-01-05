@@ -28,92 +28,160 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.dgvMatieres = new System.Windows.Forms.DataGridView();
+            this.lblLibelle = new System.Windows.Forms.Label();
+            this.txtLibelle = new System.Windows.Forms.TextBox();
+            this.lblVolumeHoraire = new System.Windows.Forms.Label();
+            this.numVolumeHoraire = new System.Windows.Forms.NumericUpDown();
+            this.lblNiveau = new System.Windows.Forms.Label();
+            this.txtNiveau = new System.Windows.Forms.TextBox();
+            this.btnAjouter = new System.Windows.Forms.Button();
+            this.btnModifier = new System.Windows.Forms.Button();
+            this.btnSupprimer = new System.Windows.Forms.Button();
+            this.btnAnnuler = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvMatieres)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numVolumeHoraire)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataGridView1
+            // dgvMatieres
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(398, 84);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 82;
-            this.dataGridView1.RowTemplate.Height = 33;
-            this.dataGridView1.Size = new System.Drawing.Size(637, 603);
-            this.dataGridView1.TabIndex = 0;
+            this.dgvMatieres.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvMatieres.Location = new System.Drawing.Point(500, 84);
+            this.dgvMatieres.Name = "dgvMatieres";
+            this.dgvMatieres.RowHeadersWidth = 82;
+            this.dgvMatieres.RowTemplate.Height = 33;
+            this.dgvMatieres.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dgvMatieres.Size = new System.Drawing.Size(700, 650);
+            this.dgvMatieres.TabIndex = 0;
+            this.dgvMatieres.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvMatieres_CellClick);
             // 
-            // label1
+            // lblLibelle
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(60, 84);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 25);
-            this.label1.TabIndex = 1;
+            this.lblLibelle.AutoSize = true;
+            this.lblLibelle.Location = new System.Drawing.Point(60, 84);
+            this.lblLibelle.Name = "lblLibelle";
+            this.lblLibelle.Size = new System.Drawing.Size(71, 25);
+            this.lblLibelle.TabIndex = 1;
+            this.lblLibelle.Text = "Libellé";
             // 
-            // textBox1
+            // txtLibelle
             // 
-            this.textBox1.Location = new System.Drawing.Point(60, 148);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(292, 49);
-            this.textBox1.TabIndex = 2;
+            this.txtLibelle.Location = new System.Drawing.Point(60, 130);
+            this.txtLibelle.Multiline = true;
+            this.txtLibelle.Name = "txtLibelle";
+            this.txtLibelle.Size = new System.Drawing.Size(380, 40);
+            this.txtLibelle.TabIndex = 2;
             // 
-            // textBox2
+            // lblVolumeHoraire
             // 
-            this.textBox2.Location = new System.Drawing.Point(60, 452);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(292, 49);
-            this.textBox2.TabIndex = 4;
+            this.lblVolumeHoraire.AutoSize = true;
+            this.lblVolumeHoraire.Location = new System.Drawing.Point(60, 190);
+            this.lblVolumeHoraire.Name = "lblVolumeHoraire";
+            this.lblVolumeHoraire.Size = new System.Drawing.Size(155, 25);
+            this.lblVolumeHoraire.TabIndex = 3;
+            this.lblVolumeHoraire.Text = "Volume horaire";
             // 
-            // label2
+            // numVolumeHoraire
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(60, 388);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(70, 25);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "label2";
+            this.numVolumeHoraire.Location = new System.Drawing.Point(60, 230);
+            this.numVolumeHoraire.Maximum = new decimal(new int[] {
+            1000,
+            0,
+            0,
+            0});
+            this.numVolumeHoraire.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.numVolumeHoraire.Name = "numVolumeHoraire";
+            this.numVolumeHoraire.Size = new System.Drawing.Size(380, 31);
+            this.numVolumeHoraire.TabIndex = 4;
+            this.numVolumeHoraire.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
-            // textBox3
+            // lblNiveau
             // 
-            this.textBox3.Location = new System.Drawing.Point(60, 300);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(292, 49);
-            this.textBox3.TabIndex = 6;
+            this.lblNiveau.AutoSize = true;
+            this.lblNiveau.Location = new System.Drawing.Point(60, 290);
+            this.lblNiveau.Name = "lblNiveau";
+            this.lblNiveau.Size = new System.Drawing.Size(71, 25);
+            this.lblNiveau.TabIndex = 5;
+            this.lblNiveau.Text = "Niveau";
             // 
-            // label3
+            // txtNiveau
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(60, 236);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(70, 25);
-            this.label3.TabIndex = 5;
-            this.label3.Text = "label3";
+            this.txtNiveau.Location = new System.Drawing.Point(60, 330);
+            this.txtNiveau.Multiline = true;
+            this.txtNiveau.Name = "txtNiveau";
+            this.txtNiveau.Size = new System.Drawing.Size(380, 40);
+            this.txtNiveau.TabIndex = 6;
+            // 
+            // btnAjouter
+            // 
+            this.btnAjouter.Location = new System.Drawing.Point(60, 410);
+            this.btnAjouter.Name = "btnAjouter";
+            this.btnAjouter.Size = new System.Drawing.Size(140, 45);
+            this.btnAjouter.TabIndex = 7;
+            this.btnAjouter.Text = "Ajouter";
+            this.btnAjouter.UseVisualStyleBackColor = true;
+            this.btnAjouter.Click += new System.EventHandler(this.btnAjouter_Click);
+            // 
+            // btnModifier
+            // 
+            this.btnModifier.Location = new System.Drawing.Point(220, 410);
+            this.btnModifier.Name = "btnModifier";
+            this.btnModifier.Size = new System.Drawing.Size(140, 45);
+            this.btnModifier.TabIndex = 8;
+            this.btnModifier.Text = "Modifier";
+            this.btnModifier.UseVisualStyleBackColor = true;
+            this.btnModifier.Click += new System.EventHandler(this.btnModifier_Click);
+            // 
+            // btnSupprimer
+            // 
+            this.btnSupprimer.Location = new System.Drawing.Point(60, 470);
+            this.btnSupprimer.Name = "btnSupprimer";
+            this.btnSupprimer.Size = new System.Drawing.Size(140, 45);
+            this.btnSupprimer.TabIndex = 9;
+            this.btnSupprimer.Text = "Supprimer";
+            this.btnSupprimer.UseVisualStyleBackColor = true;
+            this.btnSupprimer.Click += new System.EventHandler(this.btnSupprimer_Click);
+            // 
+            // btnAnnuler
+            // 
+            this.btnAnnuler.Location = new System.Drawing.Point(220, 470);
+            this.btnAnnuler.Name = "btnAnnuler";
+            this.btnAnnuler.Size = new System.Drawing.Size(140, 45);
+            this.btnAnnuler.TabIndex = 10;
+            this.btnAnnuler.Text = "Annuler";
+            this.btnAnnuler.UseVisualStyleBackColor = true;
+            this.btnAnnuler.Click += new System.EventHandler(this.btnAnnuler_Click);
             // 
             // frmMatiere
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1060, 780);
+            this.ClientSize = new System.Drawing.Size(1220, 800);
             this.ControlBox = false;
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.btnAnnuler);
+            this.Controls.Add(this.btnSupprimer);
+            this.Controls.Add(this.btnModifier);
+            this.Controls.Add(this.btnAjouter);
+            this.Controls.Add(this.txtNiveau);
+            this.Controls.Add(this.lblNiveau);
+            this.Controls.Add(this.numVolumeHoraire);
+            this.Controls.Add(this.lblVolumeHoraire);
+            this.Controls.Add(this.txtLibelle);
+            this.Controls.Add(this.lblLibelle);
+            this.Controls.Add(this.dgvMatieres);
             this.Name = "frmMatiere";
-            this.Text = "Matiere";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.Text = "Matière";
+            this.Load += new System.EventHandler(this.frmMatiere_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvMatieres)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numVolumeHoraire)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -121,12 +189,16 @@
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.DataGridView dgvMatieres;
+        private System.Windows.Forms.Label lblLibelle;
+        private System.Windows.Forms.TextBox txtLibelle;
+        private System.Windows.Forms.Label lblVolumeHoraire;
+        private System.Windows.Forms.NumericUpDown numVolumeHoraire;
+        private System.Windows.Forms.Label lblNiveau;
+        private System.Windows.Forms.TextBox txtNiveau;
+        private System.Windows.Forms.Button btnAjouter;
+        private System.Windows.Forms.Button btnModifier;
+        private System.Windows.Forms.Button btnSupprimer;
+        private System.Windows.Forms.Button btnAnnuler;
     }
 }
